@@ -1,0 +1,10 @@
+.BREAKDOWN
+.titles 物料编号;物料名称;物料描述;图纸编号;用量;重量;
+.row %PART_NO[-20s];%PART_NAME[-25s];%MATERIAL[-25s];%DRAWING_NO[-18s];%$quantity[-14d];%WEIGHT[-14d];
+.END
+
+
+
+
+
+

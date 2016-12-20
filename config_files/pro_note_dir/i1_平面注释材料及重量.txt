@@ -1,0 +1,4 @@
+型号:&MODEL
+名称:&DESCRIPTION
+材质:&PTC_MATERIAL_NAME
+重量:&WIGHT(g)

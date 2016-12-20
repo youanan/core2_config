@@ -1,0 +1,22 @@
+﻿plotter MS_PRINT_MGR
+button_name MS Printer Manager
+button_help 已配置好的，直接打印
+:wplot_drawing_format YES default
+plot_segmented NO default
+plot_roll_media NO default
+plot_label NO default
+plot_handshake software default
+create_separate_files NO default
+plot_with_panzoom NO default
+rotate_plotting NO default
+allow_file_naming YES
+plot_name NO
+interface_quality 3 default
+plot_destination file default
+pen_table_file d:\PTC\Creo2.0_config\config_files\print_config\pen_table_file\table.pnt
+plot_sheets current default
+paper_size A3  default
+paper_outline NO default
+plot_clip NO default
+plot_area NO default
+plot_stroke_text NO

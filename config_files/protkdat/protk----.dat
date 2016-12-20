@@ -1,0 +1,65 @@
+name   MCADExTools
+startup dll
+exec_file  D:\PTC\MCADExTools62\Main\x86e_win64\MTMain.dll
+text_dir  D:\PTC\MCADExTools62\Main
+allow_stop true 
+delay_start false 
+end
+
+name   MTGeneral
+startup dll
+exec_file  D:\PTC\MCADExTools62\General\x86e_win64\MTGeneral.dll
+text_dir  D:\PTC\MCADExTools62\General
+allow_stop true 
+delay_start false 
+end
+
+name   MTDrawing
+startup dll
+exec_file  D:\PTC\MCADExTools62\Drawing\x86e_win64\MTDrawing.dll
+text_dir  D:\PTC\MCADExTools62\Drawing
+allow_stop true 
+delay_start false 
+end
+
+name   MTAnnotation
+startup dll
+exec_file  D:\PTC\MCADExTools62\Annotation\x86e_win64\MTAnnotation.dll
+text_dir  D:\PTC\MCADExTools62\Annotation
+allow_stop true 
+delay_start false 
+end
+
+
+name   MTOption
+startup dll
+exec_file  D:\PTC\MCADExTools62\Option\x86e_win64\MTOption.dll
+text_dir  D:\PTC\MCADExTools62\Option
+allow_stop true 
+delay_start false 
+end
+
+name   MTAbout
+startup dll
+exec_file  D:\PTC\MCADExTools62\About\x86e_win64\MTAbout.dll
+text_dir  D:\PTC\MCADExTools62\About
+allow_stop true 
+delay_start false 
+end
+
+name eDrawings
+startup DLL
+delay_start FALSE
+allow_stop  TRUE
+exec_file $PRO_DIRECTORY\$PRO_MACHINE_TYPE\obj\proeconnector.dll
+text_dir $PRO_DIRECTORY
+end
+
+NAME KeyShot3
+EXEC_FILE d:\Program Files\KeyShot3\Plugins\Creo 64bit\keyshot3_creo_plugin.dll
+TEXT_DIR d:\Program Files\KeyShot3\Plugins\Creo 64bit
+STARTUP     DLL
+REVISION    18
+ALLOW_STOP  TRUE
+DELAY_START FALSE
+END

@@ -1,0 +1,144 @@
+if rel_model_type == "ASSEMBLY"
+/* ---装配
+
+    /*检查DESCRIPTION参数(名称)
+    if exists("DESCRIPTION")
+        if string_length(DESCRIPTION)==0
+            if string_length(rel_model_name)==7 | string_length(rel_model_name)==8
+                DESCRIPTION="总装图"
+	    endif
+        else
+           DESCRIPTION=""
+        endif
+    else
+        if string_length(rel_model_name)==7 | string_length(rel_model_name)==8
+            DESCRIPTION="总装图"
+        else
+            DESCRIPTION=""
+	endif
+    endif
+
+    /*检查MATERIAL参数(材质描述)
+    if exists("MATERIAL")
+        MATERIAL=MATERIAL
+    else
+    	MATERIAL=""
+    endif
+
+    /*检查WULIAO参数(料号)
+    if exists("WULIAO")
+        WULIAO=WULIAO
+    else
+        WULIAO=""
+    endif
+
+    /*检查DRAWING参数(图号)
+    if exists("DRAWING")
+    	DRAWING=DRAWING
+    else
+    	DRAWING=""
+    endif
+
+    if exists("MODEL")
+        MODEL=MODEL
+    else
+        MODEL=""
+    endif
+
+    /*检查FROM参数
+    if exists("FROM")
+    	FROM=FROM
+    else
+    	FROM=""
+    endif
+    
+   
+    /*检查NOTE参数
+    if exists("NOTE")
+    	NOTE=NOTE
+    else
+    	NOTE=""
+    endif
+
+
+else
+/* ---零件
+    mass=MP_MASS("")
+
+    /*检查DESCRIPTION参数(名称)
+    if exists("DESCRIPTION")
+    DESCRIPTION=DESCRIPTION
+    else
+    DESCRIPTION=""
+    endif
+
+    /*检查MATERIAL参数(材质描述)
+    if exists("MATERIAL")
+        if MATERIAL==""
+    		if PTC_MATERIAL_NAME=="PP"
+    			MATERIAL="PP,750℃阻燃"
+    		endif
+    		if PTC_MATERIAL_NAME=="PC"
+    			MATERIAL="PC,750℃阻燃"
+    		endif
+    		if PTC_MATERIAL_NAME=="H62"
+    			MATERIAL="H62,3/4硬(130-145HV)"
+    		endif
+        else
+        MATERIAL=MATERIAL
+    	endif
+    else
+    	if PTC_MATERIAL_NAME=="PP"
+    		MATERIAL="PP,750℃阻燃"
+    	endif
+    	if PTC_MATERIAL_NAME=="PC"
+    		MATERIAL="PC,750℃阻燃"
+    	endif
+    	if PTC_MATERIAL_NAME=="H62"
+    		MATERIAL="H62,3/4硬(140-155HV)"
+    	endif
+    	if PTC_MATERIAL_NAME==""
+    		MATERIAL=""
+    	endif
+    endif
+    
+    /*检查WULIAO参数(料号)
+    if exists("WULIAO")
+        WULIAO=WULIAO
+    else
+        WULIAO=""
+    endif
+    
+    /*检查DRAWING参数(图号)
+    if exists("DRAWING")
+    	DRAWING=DRAWING
+    else
+    	DRAWING=""
+    endif
+    
+    /*检查MODEL参数
+    if exists("MODEL")
+    	MODEL=MODEL
+    else
+    	MODEL=""
+    endif    
+
+    
+    /*检查FROM参数
+    if exists("FROM")
+    	FROM=FROM
+    else
+    	FROM=""
+    endif
+    
+   
+    /*检查NOTE参数
+    if exists("NOTE")
+    	NOTE=NOTE
+    else
+    	NOTE=""
+    endif
+
+/*---if rel_model_type
+endif    
+

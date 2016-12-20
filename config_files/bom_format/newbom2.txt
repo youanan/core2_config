@@ -1,0 +1,10 @@
+.BREAKDOWN
+.titles 物料编号;物料名称;物料描述;图纸编号;用量;重量;
+.row %wuliao[-20s];%description[-25s];%material[-25s];%drawing[-18s];%$quantity[-14d];%mass[-14d];
+.END
+
+
+
+
+
+

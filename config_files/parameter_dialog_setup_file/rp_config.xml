@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<parameter_ui_configuration>
+    <dialog_type name="PARAMETER DIALOG">
+        <dialog_size>
+            <height>538</height>
+            <width>758</width>
+        </dialog_size>
+        <dialog_location>
+            <horizontal_pos>331</horizontal_pos>
+            <vertical_pos>200</vertical_pos>
+        </dialog_location>
+        <layout_visibility>
+            <parameters>Yes</parameters>
+            <relations>No</relations>
+        </layout_visibility>
+        <displayed_columns>
+            <column name="name" width="8"/>
+            <column name="type" width="5"/>
+            <column name="value" width="26"/>
+            <column name="source" width="5"/>
+            <column name="description" width="6"/>
+        </displayed_columns>
+        <sortby/>
+        <filters>
+            <filter name="Default" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and all subcontexts" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and assy level features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and submodels" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subfeatures" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation elements" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subgeometry" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+        </filters>
+        <current_filter name="Default"/>
+        <hidden_filter value="No"/>
+    </dialog_type>
+    <dialog_type name="RELATION DIALOG">
+        <dialog_size>
+            <height>657</height>
+            <width>746</width>
+        </dialog_size>
+        <dialog_location>
+            <horizontal_pos>283</horizontal_pos>
+            <vertical_pos>123</vertical_pos>
+        </dialog_location>
+        <layout_visibility>
+            <parameters>Yes</parameters>
+            <relations>No</relations>
+        </layout_visibility>
+        <displayed_columns>
+            <column name="name" width="8"/>
+            <column name="type" width="4"/>
+            <column name="value" width="20"/>
+            <column name="attribute" width="4"/>
+            <column name="source" width="5"/>
+            <column name="description" width="6"/>
+        </displayed_columns>
+        <sortby/>
+        <filters>
+            <filter name="Default" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and all subcontexts" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and assy level features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and submodels" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subfeatures" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation elements" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subgeometry" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+        </filters>
+        <current_filter name="Default"/>
+        <hidden_filter value="No"/>
+    </dialog_type>
+    <dialog_type name="PARAMETER SELECTION DIALOG">
+        <dialog_size>
+            <height>425</height>
+            <width>556</width>
+        </dialog_size>
+        <dialog_location>
+            <horizontal_pos>724</horizontal_pos>
+            <vertical_pos>311</vertical_pos>
+        </dialog_location>
+        <layout_visibility>
+            <parameters>Yes</parameters>
+            <relations>No</relations>
+        </layout_visibility>
+        <displayed_columns/>
+        <sortby/>
+        <filters>
+            <filter name="Default" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and all subcontexts" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and assy level features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and submodels" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subfeatures" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation features" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and annotation elements" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+            <filter name="Current and subgeometry" source="Standard">
+                <table_id>Parameter Rule</table_id>
+            </filter>
+        </filters>
+        <current_filter name="Default"/>
+        <hidden_filter value="No"/>
+    </dialog_type>
+</parameter_ui_configuration>
