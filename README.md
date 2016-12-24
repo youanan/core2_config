@@ -1,1 +1,3 @@
-# core2_config
+# My creo2.o config
+----
+
