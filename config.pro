@@ -276,7 +276,7 @@ mapkey(continued) ~ Close `relation_dlg` `MenuBar1`;~ Activate `relation_dlg` `P
 mapkey(continued) ~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
 mapkey(continued) ~ Update `file_open` `Inputname` \
 mapkey(continued) `d:\\PTC\\Creo2.0_config\\config_files\\parameter_dialog_setup_file\\relatio\
-mapkey(continued) n_hongyi.txt`;~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
+mapkey(continued) n_2.txt`;~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
 mapkey(continued) ~ Activate `relation_dlg` `TBVerify`;~ Activate `UI Message Dialog` `ok`;\
 mapkey(continued) ~ FocusIn `relation_dlg` `ParamsPHLay.ParTable`;\
 mapkey(continued) ~ Select `relation_dlg` `MenuBar1` 1 `File`;\
